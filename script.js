@@ -38,7 +38,7 @@ window.addEventListener("scroll", reveal);
 // Call the reveal function on initial load
 reveal();
 
-var tags = ['Java', 'Python', '.Net']; // List of tags
+var tags = ['Java', 'Python']; // List of tags
 var currentIndex = 0;
 
 function updateDeveloperRole() {
