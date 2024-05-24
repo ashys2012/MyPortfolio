@@ -38,12 +38,12 @@ window.addEventListener("scroll", reveal);
 // Call the reveal function on initial load
 reveal();
 
-var tags = ['Java', 'Python']; // List of tags
+var tags = ['Deep Learning', 'Machine Learning']; // List of tags
 var currentIndex = 0;
 
 function updateDeveloperRole() {
     currentIndex = (currentIndex + 1) % tags.length;
-    document.getElementById('developerRole').textContent = tags[currentIndex] + ' Developer';
+    document.getElementById('developerRole').textContent = tags[currentIndex] + ' Engineer';
 }
 
 // Start cycling through tags every 2 seconds
